@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import HelloWorld from "./components/HelloWorld";
+import Button2 from "./components/Button2";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HelloWorld />
+    <Button2 text="Click Index" />
   </React.StrictMode>,
   document.getElementById("root")
 );
